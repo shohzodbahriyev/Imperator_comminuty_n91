@@ -45,6 +45,9 @@
   color: #000000;
   text-decoration: none;
 }
+.imperator-footer .imperator-footer-item .row .footer-place p a:hover {
+  border-bottom: 2px solid #3507e9;
+}
 @media screen and (max-width: 578px) {
   .imperator-footer .imperator-footer-item .row .footer-place {
     width: 50%;
