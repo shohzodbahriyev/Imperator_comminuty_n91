@@ -1,4 +1,27 @@
 @import "../global";
 
-#home{
+#home {
+  // SECTION1
+
+  .comfortable {
+    height: 788px;
+    background-image: linear-gradient(
+      #e1aa00 0 24%,
+      black 24% 72%,
+      #ffc000 72%
+    );
+
+    .owl-theme .owl-dots .owl-dot {
+      display: inline-block;
+      zoom: 1;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      &:hover{
+        border-color: white;
+      }
+      &:active{
+        border-color: white;
+      }
+    }
+  }
 }

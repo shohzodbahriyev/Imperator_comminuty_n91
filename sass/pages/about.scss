@@ -1,44 +1,48 @@
 @import "../global";
 
-#about{
-  h1{
+#about {
+  h1 {
     font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 34px;
-      color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000000;
   }
-  .row{
-    .sec1-left{
-      h2{
-font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  color: #000000;
-  padding-top: 75px;
-      }
-      p{
+
+  .row {
+    .sec1-left {
+      h2 {
         font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          color: #000000;
-          padding-top: 25px;
-      }   
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+        padding-top: 75px;
+      }
+
+      p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        padding-top: 25px;
+      }
     }
-    .sec2-right{
-      img:hover{
+
+    .sec2-right {
+      img:hover {
         transform: scale(1.1);
         transition-duration: 0.5s;
       }
     }
   }
+
   @media screen and (max-width:992px) {
-  .sec2-right{
-    img{
-      width: 100%;
+    .sec2-right {
+      img {
+        width: 100%;
+      }
     }
-  }    
   }
 }

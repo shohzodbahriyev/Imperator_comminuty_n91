@@ -1,0 +1,47 @@
+@import "../global";
+
+.imperator-footer {
+  background-color: rgb(223, 220, 220);
+
+  .imperator-footer-item {
+    .row {
+      .footer-place {
+        h3 {
+          padding-top: 45px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          text-transform: uppercase;
+          color: #000000;
+        }
+
+        p {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160%;
+          color: #000000;
+
+          a {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            color: #000000;
+            text-decoration: none;
+
+          }
+        }
+      }
+
+      @media screen and (max-width:578px) {
+        .footer-place {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
