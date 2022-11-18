@@ -1,0 +1,17 @@
+@import url(../global.scss);
+@import url(../global.scss);
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+* {
+  font-family: Montserrat;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}/*# sourceMappingURL=payment.css.map */
