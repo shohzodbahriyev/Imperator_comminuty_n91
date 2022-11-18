@@ -14,4 +14,21 @@
 }
 * .language a:hover {
   color: blue;
+}
+
+#home .comfortable {
+  height: 788px;
+  background-image: linear-gradient(#e1aa00 0 24%, black 24% 72%, #ffc000 72%);
+}
+#home .comfortable .owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+#home .comfortable .owl-theme .owl-dots .owl-dot:hover {
+  border-color: white;
+}
+#home .comfortable .owl-theme .owl-dots .owl-dot:active {
+  border-color: white;
 }/*# sourceMappingURL=home.css.map */
