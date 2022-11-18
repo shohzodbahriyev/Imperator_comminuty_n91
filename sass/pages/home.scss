@@ -1,26 +1,137 @@
 @import "../global";
 
 #home {
+  background: #e5e5e5;
+
   // SECTION1
 
   .comfortable {
-    height: 788px;
+    // height: 788px;
     background-image: linear-gradient(
       #e1aa00 0 24%,
       black 24% 72%,
       #ffc000 72%
     );
 
-    .owl-theme .owl-dots .owl-dot {
-      display: inline-block;
-      zoom: 1;
-      border: 1px solid transparent;
-      border-radius: 50%;
-      &:hover{
-        border-color: white;
+    .shopping {
+      h2 {
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 48px;
+        color: white;
       }
-      &:active{
-        border-color: white;
+      p {
+        font-style: Medium;
+        font-size: 14px;
+        line-height: 20px;
+        color: white;
+        padding-top: 16px;
+      }
+      .dropdown {
+        .btn {
+          font-style: Medium;
+          font-size: 14px;
+          line-height: 20px;
+          color: #ffc000;
+          background-color: transparent;
+        }
+      }
+    }
+
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .benefit {
+    padding: 67px 0 80px;
+    h3 {
+      font-weight: 900;
+      font-size: 34px;
+      line-height: 48px;
+      color: black;
+      text-align: center;
+      padding-bottom: 24px;
+    }
+    .row {
+      @media screen and (max-width: 992px) {
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      @media screen and (max-width: 576px) {
+        align-content: center;
+      }
+      .col-4 {
+        @media screen and (max-width: 992px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+          width: 100%;
+        }
+        .card {
+          padding: 26px 12px 27px;
+          gap: 30px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .bestproducts {
+    h3 {
+      font-weight: 900;
+      font-size: 34px;
+      line-height: 48px;
+      color: black;
+      text-align: center;
+    }
+    .row {
+      padding: 32px 0 64px;
+    }
+  }
+
+  .category {
+    h3 {
+      font-weight: 900;
+      font-size: 34px;
+      line-height: 48px;
+      color: black;
+      text-align: center;
+    }
+
+    .box {
+      transition: 0.1s;
+      // overflow: hidden;
+      &:hover .caption {
+        display: block;
+        transform: translateY(-20px);
+      }
+      img {
+        object-fit: cover;
+        transition: 0.5s;
+        &:hover {
+          height: 272px;
+          width: 264px;
+          
+        }
+      }
+      .caption {
+        display: none;
+        transform: translateY(0px);
+        background: #0d0d0dff;
+        width: 264px;
+        height: 80px;
+
+        h2 {
+          color: #ffc000;
+          text-align: center;
+          padding-top: 15px;
+        }
       }
     }
   }
