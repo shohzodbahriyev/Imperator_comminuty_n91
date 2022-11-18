@@ -1,33 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/product.css">
-  </head>
-  <body>
-    <div class="language bg-dark py-2">
-      <div class="container">
-        <a href="product.html">RU</a>
-        <a href="product-uz.html">UZB</a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+  <div class="language bg-dark py-2">
+    <div class="container">
+      <a href="product.html">RU</a>
+      <a href="product-uz.html">UZB</a>
     </div>
-    <header w3-include-html="navbar.html"></header>
+  </div>
+  <header w3-include-html="navbar.html"></header>
 
-    <main id="product">
+  <main id="product">
+    <section class="product__sct">
+      <div class="container product__sct__shop">
+        <div class="product__sct__shop__rows row">
+          <div class="product__sct__shop__rows__right col-6">
+            <img src="./images/product_imgs/product_shop.png" alt="">
+            <div class="product__sct__shop__rows__right_imgs">
+              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
+              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
+              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
+              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
+            </div>
+          </div>
+          <div class="product__sct__shop__rows__left col-6">
+            <div class="product__sct__shop__rows__left__prgrph">
+              <h1>Lorem ipsum dolor sit amet</h1>
+              <img src="./images/product_imgs/star.svg" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula
+                  tempor porta Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae!</span></p>
+              <p onclick="myFunction()" id="myBtn">Read more...</p>
+              <h4>855 у.е.</h4>
+            </div>
+            <div class="product__sct__shop__rows__left__shops">
+              <h5>Size</h5>
+              <div class="product__sct__shop__rows__left__shops__size">
+                <button type="button" class="btn btn-light">28</button>
+                <button type="button" class="btn btn-light">30</button>
+                <button type="button" class="btn btn-light">32</button>
+                <button type="button" class="btn btn-light">34</button>
+                <button type="button" class="btn btn-light">36</button>
+              </div>
+              <div class="product__sct__shop__rows__left__btn">
+                <button type="button" class="btn btn-warning">Добавить в корзину</button>
+                <button type="button" class="btn btn-light">Быстрая покупка</button>
+              </div>
+              <div class="product__sct__shop__rows__left__advantages">
+                <h4>Преимущества</h4>
+                <ul class="product__sct__shop__rows__left__advantages__item">
+                  <li class="product__sct__shop__rows__left__advantages__item__list"> <img
+                      src="./images/product_imgs/ic_delivery.svg" alt=""> <span>Delivery in 7 days</span> </li>
+                  <li class="product__sct__shop__rows__left__advantages__item__list"><img
+                      src="./images/product_imgs/ic_file_checked.svg" alt="">  <span>90-day Buyer Protection</span>  </li>
+                  <li class="product__sct__shop__rows__left__advantages__item__list"> <img
+                      src="./images/product_imgs/ic_medal.svg" alt=""> <span>Trusted seller</span> </li>
+                  <li class="product__sct__shop__rows__left__advantages__item__list"> <img
+                      src="./images/product_imgs/ic_safe.svg" alt=""> <span>Aviable to order</span> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
 
-    </main>
+  <footer w3-include-html="footer.html"></footer>
 
-    <footer w3-include-html="footer.html"></footer>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jQuery.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/product.js"></script>
+</body>
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/jQuery.min.js"></script>
-    <script src="./js/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
-  </body>
 </html>
