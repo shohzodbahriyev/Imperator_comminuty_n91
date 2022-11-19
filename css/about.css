@@ -1,11 +1,11 @@
 @import url(../global.scss);
 @import url(../global.scss);
 @font-face {
-  font-family: Montserrat;
-  src: url(../../fonts/Montserrat-Regular.ttf);
+  font-family: "Montserrat", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
 }
 * {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 
 * .language a {
@@ -16,14 +16,21 @@
   color: blue;
 }
 
-#about h1 {
+#about .sec-1 {
+  padding-bottom: 30px;
+  background: #E5E5E5;
+}
+#about .sec-1 h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
   color: #000000;
 }
-#about .row .sec1-left h2 {
+#about .sec-1 .row .sec1-left {
+  padding-bottom: 150px;
+}
+#about .sec-1 .row .sec1-left h2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -31,7 +38,7 @@
   color: #000000;
   padding-top: 75px;
 }
-#about .row .sec1-left p {
+#about .sec-1 .row .sec1-left p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -39,12 +46,101 @@
   color: #000000;
   padding-top: 25px;
 }
-#about .row .sec2-right img:hover {
+#about .sec-1 .row .sec2-right {
+  padding-bottom: 80px;
+}
+#about .sec-1 .row .sec2-right img:hover {
   transform: scale(1.1);
   transition-duration: 0.5s;
+  box-shadow: #0F0D2B 0px 8px 10px 5px;
 }
 @media screen and (max-width: 992px) {
-  #about .sec2-right img {
+  #about .sec-1 .sec2-right img {
     width: 100%;
   }
+}
+#about .sec-2 .container .row {
+  padding: 30px 30px;
+}
+#about .sec-2 .container .row img {
+  padding-bottom: 50px;
+}
+#about .sec-2 .col-md-4:hover {
+  transform: scale(1.1);
+}
+#about .sec-3 {
+  background-image: linear-gradient(#e5e5e5 0 40%, #0F0D2B 40% 100%);
+  padding-bottom: 50px;
+}
+#about .sec-3 .row {
+  padding-top: 50px;
+}
+#about .sec-3 .row img {
+  width: 100%;
+}
+#about .sec-3 .row h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  color: #ffffff;
+  padding-top: 350px;
+}
+#about .sec-3 .row p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+#about .sec-3 .row button:hover {
+  font-size: 30px;
+  background-color: #e1aa00;
+}
+@media screen and (max-width: 900px) {
+  #about .sec-3 .row .sec3-top {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #about .sec-3 .row .sec3-top {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 470px) {
+  #about .sec-3 .row .sec3-top {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #about .sec-3 .row .sec3-top {
+    height: 150px;
+  }
+}
+
+.sec-4 {
+  padding-top: 150px;
+  padding-bottom: 65px;
+}
+.sec-4 .sec4-right h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  color: #000000;
+}
+.sec-4 .sec4-right .col-5 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+.sec-4 .sec4-right .col-5 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
 }/*# sourceMappingURL=about.css.map */

@@ -1,26 +1,227 @@
 @import "../global";
 
 #home {
+  background: #e5e5e5;
+
   // SECTION1
 
   .comfortable {
-    height: 788px;
+    // height: 788px;
     background-image: linear-gradient(
       #e1aa00 0 24%,
       black 24% 72%,
       #ffc000 72%
     );
 
-    .owl-theme .owl-dots .owl-dot {
-      display: inline-block;
-      zoom: 1;
-      border: 1px solid transparent;
-      border-radius: 50%;
-      &:hover{
-        border-color: white;
+    .owl-theme .owl-nav {
+      display: none;
+    }
+
+    .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 48px);
+      @media screen and (max-width: 576px) {
+        display: none;
       }
-      &:active{
-        border-color: white;
+    }
+
+    .break {
+      @media screen and (max-width: 576px) {
+        flex-direction: column-reverse;
+      }
+    }
+
+    .shopping {
+      // @media screen and (max-width: 576px) {
+      //   background-color: #E5E5E5;
+      // }
+      h2 {
+        @include title;
+        color: white;
+        @media screen and (max-width: 768px) {
+          font-size: 24px;
+          line-height: 28px;
+        }
+      }
+      p {
+        font-style: Medium;
+        font-size: 14px;
+        line-height: 20px;
+        color: white;
+        padding-top: 16px;
+      }
+      .dropdown {
+        .btn {
+          font-style: Medium;
+          font-size: 14px;
+          line-height: 20px;
+          color: #ffc000;
+          background-color: transparent;
+          @media screen and (max-width: 992px) {
+            color: black;
+          }
+        }
+      }
+    }
+
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .benefit {
+    padding: 67px 0 80px;
+    h3 {
+      @include title;
+      color: black;
+      text-align: center;
+      padding-bottom: 24px;
+    }
+    .row {
+      @media screen and (max-width: 992px) {
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      @media screen and (max-width: 576px) {
+        align-content: center;
+      }
+      .col-4 {
+        @media screen and (max-width: 992px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+          width: 100%;
+        }
+        .card {
+          padding: 26px 12px 27px;
+          gap: 30px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .bestproducts {
+    h3 {
+      @include title;
+      color: black;
+      text-align: center;
+    }
+    .row {
+      padding: 32px 0 64px;
+    }
+  }
+
+  .category {
+    h3 {
+      @include title;
+      color: black;
+      text-align: center;
+    }
+
+    .box {
+      transition: 0.1s;
+      // overflow: hidden;
+      &:hover .caption {
+        display: block;
+        transform: translateY(-20px);
+      }
+      img {
+        object-fit: cover;
+        transition: 0.5s;
+        &:hover {
+          height: 272px;
+          width: 264px;
+        }
+      }
+      .caption {
+        display: none;
+        transform: translateY(0px);
+        background: #0d0d0dff;
+        width: 264px;
+        height: 80px;
+
+        h2 {
+          color: #ffc000;
+          text-align: center;
+          padding-top: 15px;
+        }
+      }
+    }
+  }
+
+  .app {
+    padding: 244px 0 64px;
+    .card {
+      background-color: #0c0a27ff;
+      .col-md-5 {
+        img {
+          position: absolute;
+          top: -200px;
+          left: 50px;
+          transition: 1s;
+          @media screen and (max-width: 768px) {
+          }
+          &:hover {
+            transform: rotateZ(-15deg) rotateY(-45deg);
+          }
+        }
+        // transform: translate(50px, -200px);
+      }
+
+      .col-md-7 {
+        .card-body {
+          .card-title {
+            @include title;
+            color: white;
+          }
+          .card-text {
+            @include text;
+            color: white;
+          }
+          .logos {
+            a {
+              img {
+                margin-right: 20px;
+                object-fit: cover;
+                transition: 0.5s;
+                &:hover {
+                  transform: scale(1.1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .new-product {
+    .col-md-4 {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .col-md-8 {
+      .card-body {
+        .card-title {
+          @include title;
+        }
+        .card-text {
+          @include text;
+        }
+        a {
+          text-transform: uppercase;
+        }
       }
     }
   }
