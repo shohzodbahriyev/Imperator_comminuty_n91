@@ -1,0 +1,63 @@
+@import url(../global.scss);
+@import url(../global.scss);
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}
+
+#checkout .chekbox .chekbox_title {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+#checkout .chekbox form .chekbox_left .chekbox_text {
+  background-color: #ffc000;
+  max-width: 500px;
+  max-height: 100px;
+  padding: 20px;
+}
+#checkout .chekbox form .chekbox_left .chekbox_text p {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  align-items: flex-end;
+  letter-spacing: 0.15px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #0d0d0d;
+}
+#checkout .chekbox form .chekbox_left .chekbox_cards {
+  padding-top: 40px;
+}
+#checkout .chekbox form .chekbox_left .chekbox_cards .cards {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  max-width: 500px;
+}
+#checkout .chekbox form .chekbox_right input {
+  max-height: 54px;
+  padding: 12px 10px;
+  border: none;
+  background: #f1f1f1;
+}
+#checkout .chekbox form .chekbox_right .bnt_chekbox_right input {
+  background-color: #ffc000;
+}/*# sourceMappingURL=checkout.css.map */

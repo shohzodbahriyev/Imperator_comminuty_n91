@@ -1,5 +1,38 @@
 @import "../global";
 
-#categories{
-  
+#categories {
+  #categories__wear {
+    &__title {
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 140%;
+      letter-spacing: 0.25px;
+      font-feature-settings: "pnum" on, "lnum" on;
+      color: #000000;
+    }
+    &__img__title {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 130%;   
+      letter-spacing: 0.02em;
+      font-feature-settings: "pnum" on, "lnum" on;
+      color: #000000;
+    }
+  }
+
+//   @media screen and (max-width:240px) {
+//      #categories__wear {
+//         .row{
+//             .card{
+//                 a{
+//                    img {
+//             width: 50%;
+//             background-color: red;
+//         }  
+//                 }
+//             }
+//         }
+       
+//      }
+//   }
 }
