@@ -16,47 +16,26 @@
   color: blue;
 }
 
-a {
-  text-decoration: none;
-}
-
-#checkout .chekbox {
-  padding-bottom: 60px;
-}
 #checkout .chekbox .chekbox_title {
   padding-top: 64px;
   padding-bottom: 80px;
-}
-#checkout .chekbox .chekbox_title h1 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 34px;
   line-height: 140%;
   text-align: center;
-  letter-spacing: 0.25px;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
-  font-family: "Montserrat";
-}
-@media screen and (max-width: 991px) {
-  #checkout .chekbox .chekbox_title {
-    padding: 35px;
-    margin-left: -35px;
-  }
-  #checkout .chekbox .chekbox_title h1 {
-    text-align: left;
-  }
 }
 #checkout .chekbox form .chekbox_left .chekbox_text {
   background-color: #ffc000;
   max-width: 500px;
-  padding: 10px;
+  max-height: 100px;
+  padding: 20px;
 }
 #checkout .chekbox form .chekbox_left .chekbox_text p {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 20px;
   line-height: 140%;
   align-items: flex-end;
   letter-spacing: 0.15px;
@@ -73,19 +52,6 @@ a {
   justify-content: space-between;
   max-width: 500px;
 }
-@media screen and (max-width: 991px) {
-  #checkout .chekbox form .chekbox_left .chekbox_cards {
-    padding-bottom: 30px;
-  }
-  #checkout .chekbox form .chekbox_left .chekbox_text {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 583px) {
-  #checkout .chekbox form .chekbox_left img {
-    width: 100%;
-  }
-}
 #checkout .chekbox form .chekbox_right input {
   max-height: 54px;
   padding: 12px 10px;
@@ -94,59 +60,4 @@ a {
 }
 #checkout .chekbox form .chekbox_right .bnt_chekbox_right input {
   background-color: #ffc000;
-}
-#checkout .order {
-  padding-bottom: 64px;
-}
-#checkout .order h1 {
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.25px;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #000000;
-  font-family: "Montserrat";
-  padding-bottom: 20px;
-}
-#checkout .order .order_items .order_items_text h2 {
-  font-weight: 700;
-  font-size: 1.2rem;
-  line-height: 140%;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #040921;
-  padding-bottom: 2rem;
-}
-#checkout .order .order_items .order_items_text p {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  letter-spacing: 0.25px;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #000000;
-}
-@media screen and (max-width: 991px) {
-  #checkout .order > h1 {
-    padding-top: -20px;
-    text-align: left;
-    padding-bottom: -10px;
-  }
-}
-#checkout .market h1 {
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.25px;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #000000;
-  font-family: "Montserrat";
-  padding-bottom: 20px;
-}
-#checkout .market .market_item {
-  padding-bottom: 60px;
-  gap: 15px 0;
-}
-#checkout .market .market_item img {
-  width: 100%;
 }/*# sourceMappingURL=checkout.css.map */
