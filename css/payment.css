@@ -16,6 +16,12 @@
   color: blue;
 }
 
+<<<<<<< HEAD
+#payment .section__container .form-control {
+  padding: 15px;
+}
+=======
+>>>>>>> bb59b015fb269cd74d4b15dbe1823d886d216151
 #payment .section__container h1 {
   margin-top: 100px;
   margin-right: 70px;
