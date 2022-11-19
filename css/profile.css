@@ -15,26 +15,3 @@
 * .language a:hover {
   color: blue;
 }/*# sourceMappingURL=profile.css.map */
-.profile__section-1 {
-  height: 400px;
-  
-
-}
-.row {
-  height: 100%;
-  
-}
-.col-4 {
-  
-}
-.card-img-top {
-  width: 100%;
-}
-.btn-primary {
-  background-color: #FFC000;
-  color: black;
-}
-.edit {
-  color: #FFC000;
-  text-decoration: none;
-}

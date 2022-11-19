@@ -15,24 +15,3 @@
 * .language a:hover {
   color: blue;
 }/*# sourceMappingURL=login.css.map */
-.login__section__1 {
-  height: 400px;
-  
-
-}
-.row {
-  height: 100%;
-  
-}
-.col-6 {
-}
-.login-img {
-  width: 100%;
-}
-.btn__login {
-  margin-top: 50px;
-  color: black;
-  width: 100px;
-  height: 50px;
-  background-color: #fff000;
-}
