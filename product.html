@@ -1,33 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/product.css">
-  </head>
-  <body>
-    <div class="language bg-dark py-2">
-      <div class="container">
-        <a href="product.html">RU</a>
-        <a href="product-uz.html">UZB</a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+  <div class="language bg-dark py-2">
+    <div class="container">
+      <a href="product.html">RU</a>
+      <a href="product-uz.html">UZB</a>
     </div>
-    <header w3-include-html="navbar.html"></header>
+  </div>
+  <header w3-include-html="navbar.html"></header>
 
-    <main id="product">
+    <main id="product" class="product">
+    <section class="product__sct mt-5">
+      <div class="container product__sct__shop">
+        <div class="product__sct__shop__rows row">
+          <div class="product__sct__shop__rows__right col-lg-6">
+            <a href="#"><img src="./images/product_imgs/product_shop.png" alt="" class="product__sct__shop__rows__right__img w-75"></a>
+            <div class="product__sct__shop__rows__right_imgs pt-4 ">
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
+            </div>
+          </div>
+          <div class="product__sct__shop__rows__left col-lg-6">
+            <div class="product__sct__shop__rows__left__prgrph">
+              <h1 class="pb-2 fw-bold text-black">Lorem ipsum dolor sit amet</h1>
+              <img src="./images/product_imgs/star.svg" class="pb-3" alt="">
+              <p class="text-black ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <span id="dots">...</span><span id="more">erisque enim ligula
+                  tempor porta molestiae!</span>
+              </p>
+              <p onclick="myFunction()" id="myBtn" class="product__sct__shop__rows__left__prgrph__read__more p fw-bold">
+                Read more...</p>
+              <h4 class="pb-3 fw-bold text-black fs-2">855 у.е.</h4>
+            </div>
+            <div class="product__sct__shop__rows__left__shops">
+              <h5 class="fw-bold text-black">Size</h5>
+              <div class="product__sct__shop__rows__left__shops__size pb-2">
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">28</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">30</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">32</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">34</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">36</button>
+              </div>
+              <div class="product__sct__shop__rows__left__btn d-flex flex-column">
+                <button type="button" class="btn btn-warning  mb-3  fw-bold text-black">Добавить в корзину</button>
+                <a href="./cart.html" class="btn btn-light mb-4 fw-bold text-black">Быстрая покупка</a>
+              </div>
+              <div class="product__sct__shop__rows__left__advantages">
+                <h4 class="fw-bold text-black fs-2 pb-3">Преимущества</h4>
+                <div class="row">
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_delivery.svg" alt="" class="pe-3"><span
+                      class="text-black">Delivery in 7 days</span></div>
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_file_checked.svg" alt="" class="pe-3"><span
+                      class="text-black">90-day Buyer Protection</span></div>
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_medal.svg" alt="" class="pe-3"><span
+                      class="text-black">Trusted seller</span></div>
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_safe.svg" alt="" class="pe-3"><span
+                      class="text-black">Aviable to order</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bestproducts">
+      <div class="container pt-5">
+        <h3 class="text-center fw-bold fs-1 pb-4">Лучшие товары</h3>
+        <div class="row">
+          <div class="card col-3">
+            <img src="./images/home/card-image-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                sed odio sed nascetur.
+              </p>
+              <div class="level">
+                <div class="stars">
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/emptystar.png" alt="" />
+                  <span>3,5</span>
+                </div>
+                <h5>855 у.е.</h5>
+              </div>
+              <a href="#" class="btn btn-warning">Добавить в корзину</a>
+            </div>
+          </div>
 
-    </main>
+          <div class="card col-3">
+            <img src="./images/home/card-image-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                sed odio sed nascetur.
+              </p>
+              <div class="level">
+                <div class="stars">
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/emptystar.png" alt="" />
+                  <span>3,5</span>
+                </div>
+                <h5>855 у.е.</h5>
+              </div>
+              <a href="#" class="btn btn-warning">Добавить в корзину</a>
+            </div>
+          </div>
 
-    <footer w3-include-html="footer.html"></footer>
+          <div class="card col-3">
+            <img src="./images/home/card-image-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                sed odio sed nascetur.
+              </p>
+              <div class="level">
+                <div class="stars">
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/emptystar.png" alt="" />
+                  <span>3,5</span>
+                </div>
+                <h5>855 у.е.</h5>
+              </div>
+              <a href="#" class="btn btn-warning">Добавить в корзину</a>
+            </div>
+          </div>
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/jQuery.min.js"></script>
-    <script src="./js/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
-  </body>
+          <div class="card col-3">
+            <img src="./images/home/card-image-4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                sed odio sed nascetur.
+              </p>
+              <div class="level">
+                <div class="stars">
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/star.png" alt="" />
+                  <img src="./images/home/emptystar.png" alt="" />
+                  <span>3,5</span>
+                </div>
+                <h5>855 у.е.</h5>
+              </div>
+              <a href="#" class="btn btn-warning">Добавить в корзину</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product__TopCategories">
+      <div class="container">
+        <div class="sec4-top">
+          <div>
+            <h3>Лучшие категории</h3>
+          </div>
+        <div class="row mt-5">
+
+          <div class="owl-carousel owl-theme">
+            <div class="item mb-4">
+              <div class="card border-0 shadow">
+                <img src="./images/product_imgs/image 21.png" alt="img" class="card-img-top">
+
+                <div class="body-carusel">
+                  <h3 class="text-center fw-bold fs-2 pt-3 pb-3">Women’s wear</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- item ends -->
+            <div class="item mb-4">
+              <div class="card border-0 shadow">
+                <img src="./images/product_imgs/image 23 (1).png" alt="img" class="card-img-top">
+
+                <div class="body-carusel">
+                  <h3 class="text-center fw-bold fs-2 pt-3 pb-3">Men’s wear</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- item ends -->
+            <div class="item mb-4">
+              <div class="card border-0 shadow">
+                <img src="./images/product_imgs/image 24 (1).png" alt="img" class="card-img-top">
+
+                <div class="body-carusel">
+                  <h3 class="text-center fw-bold fs-2 pt-3 pb-3">Kid’s wear</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- item ends -->
+            <div class="item mb-4">
+              <div class="card border-0 shadow">
+                <img src="./images/product_imgs/image 25.png" alt="img" class="card-img-top">
+
+                <div class="body-carusel">
+                  <h3 class="text-center fw-bold fs-2 pt-3 pb-3">Shoes</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="product__TopCategories__cont container pt-5">
+        <h1 class="text-center fw-bold">Лучшие категории</h1>
+        <div class="product__TopCategories__cont__row row pt-4">
+          <div class="col-3"><img src="./images/product_imgs/image 21.png" alt="">
+            <p class="pt-3 text-center w-75 fs-3 text-black">Women’s wear</p>
+          </div>
+          <div class="col-3"><img src="./images/product_imgs/image 23 (1).png" alt="">
+            <p class="pt-3 text-center w-75 fs-3 text-black">Men’s wear</p>
+          </div>
+          <div class="col-3"><img src="./images/product_imgs/image 24 (1).png" alt="">
+            <p class="pt-3 text-center w-75 fs-3 text-black">Kid’s wear</p>
+          </div>
+          <div class="col-3"><img src="./images/product_imgs/image 25.png" alt="">
+            <p class="pt-3 text-center w-75  fs-3 text-black">Shoes</p>
+          </div>
+        </div>
+      </div> -->
+    </section>
+  </main>
+
+  <footer w3-include-html="footer.html"></footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jQuery.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/product.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISKJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery sdn --- -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- owl carusel js  -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- init own carusel  -->
+
+  <script>
+    $( '.owl-carousel' ).owlCarousel( {
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 3
+        }
+      }
+    } )
+  </script>
+</body>
+
 </html>
