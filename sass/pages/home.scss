@@ -13,12 +13,37 @@
       #ffc000 72%
     );
 
+    .owl-theme .owl-nav {
+      display: none;
+    }
+
+    .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 48px);
+      @media screen and (max-width: 576px) {
+        display: none;
+      }
+    }
+
+    .break {
+      @media screen and (max-width: 576px) {
+        flex-direction: column-reverse;
+      }
+    }
+
     .shopping {
+      // @media screen and (max-width: 576px) {
+      //   background-color: #E5E5E5;
+      // }
       h2 {
-        font-weight: 900;
-        font-size: 34px;
-        line-height: 48px;
+        @include title;
         color: white;
+        @media screen and (max-width: 768px) {
+          font-size: 24px;
+          line-height: 28px;
+        }
       }
       p {
         font-style: Medium;
@@ -34,6 +59,9 @@
           line-height: 20px;
           color: #ffc000;
           background-color: transparent;
+          @media screen and (max-width: 992px) {
+            color: black;
+          }
         }
       }
     }
@@ -48,9 +76,7 @@
   .benefit {
     padding: 67px 0 80px;
     h3 {
-      font-weight: 900;
-      font-size: 34px;
-      line-height: 48px;
+      @include title;
       color: black;
       text-align: center;
       padding-bottom: 24px;
@@ -84,9 +110,7 @@
 
   .bestproducts {
     h3 {
-      font-weight: 900;
-      font-size: 34px;
-      line-height: 48px;
+      @include title;
       color: black;
       text-align: center;
     }
@@ -97,9 +121,7 @@
 
   .category {
     h3 {
-      font-weight: 900;
-      font-size: 34px;
-      line-height: 48px;
+      @include title;
       color: black;
       text-align: center;
     }
@@ -117,7 +139,6 @@
         &:hover {
           height: 272px;
           width: 264px;
-          
         }
       }
       .caption {
@@ -131,6 +152,75 @@
           color: #ffc000;
           text-align: center;
           padding-top: 15px;
+        }
+      }
+    }
+  }
+
+  .app {
+    padding: 244px 0 64px;
+    .card {
+      background-color: #0c0a27ff;
+      .col-md-5 {
+        img {
+          position: absolute;
+          top: -200px;
+          left: 50px;
+          transition: 1s;
+          @media screen and (max-width: 768px) {
+          }
+          &:hover {
+            transform: rotateZ(-15deg) rotateY(-45deg);
+          }
+        }
+        // transform: translate(50px, -200px);
+      }
+
+      .col-md-7 {
+        .card-body {
+          .card-title {
+            @include title;
+            color: white;
+          }
+          .card-text {
+            @include text;
+            color: white;
+          }
+          .logos {
+            a {
+              img {
+                margin-right: 20px;
+                object-fit: cover;
+                transition: 0.5s;
+                &:hover {
+                  transform: scale(1.1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .new-product {
+    .col-md-4 {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .col-md-8 {
+      .card-body {
+        .card-title {
+          @include title;
+        }
+        .card-text {
+          @include text;
+        }
+        a {
+          text-transform: uppercase;
         }
       }
     }

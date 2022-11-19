@@ -23,16 +23,16 @@
 #payment .section__container .row {
   margin-top: 100px;
 }
-#payment .section__container .row .col-4 {
+#payment .section__container .row .col-md-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-#payment .section__container .row .col-4 a {
+#payment .section__container .row .col-md-4 a {
   text-decoration: none;
   color: black;
 }
-#payment .section__container .row .col-4 .moment {
+#payment .section__container .row .col-md-4 .moment {
   margin-bottom: 40px;
 }
 #payment .section__container .row .col {
