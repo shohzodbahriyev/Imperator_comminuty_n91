@@ -1,5 +1,6 @@
 @import url(../global.scss);
 @import url(../global.scss);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 @font-face {
   font-family: "Montserrat", sans-serif;
   src: url(../../fonts/Montserrat-Bold.ttf);
@@ -16,15 +17,33 @@
   color: blue;
 }
 
-.coop-text {
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 140%;
-  letter-spacing: 0.25px;
+.left {
+  padding-bottom: 80px;
+}
+.left .coop-text {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 64px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
-  margin-top: 64px;
-  margin-bottom: 40px;
+}
+.left h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 34px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 5px;
+}
+.left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
 }
 
 .btn-primary {
@@ -45,4 +64,70 @@
 
 .form-control {
   border-radius: 0px;
+}
+
+textarea {
+  width: 100%;
+  height: 132px;
+  border: 1px solid #dbdee7;
+}
+
+textarea::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+textarea:-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+textarea::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+input::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+input:-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
 }/*# sourceMappingURL=cooperation.css.map */
