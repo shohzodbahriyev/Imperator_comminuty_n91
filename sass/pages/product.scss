@@ -2,6 +2,9 @@
 li {
   list-style-type: none;
 }
+.owl-theme .owl-nav  {
+  display: none;
+}
 .product {
   &__sct {
     &__shop {
