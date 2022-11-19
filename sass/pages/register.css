@@ -1,0 +1,17 @@
+@import url(../global.scss);
+@import url(../global.scss);
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}/*# sourceMappingURL=register.css.map */
