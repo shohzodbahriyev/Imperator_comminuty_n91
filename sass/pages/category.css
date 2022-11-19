@@ -14,16 +14,4 @@
 }
 * .language a:hover {
   color: blue;
-}
-
-#category #category__price .row .card .card-body .categories__wear__img__title {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 140%;
-  /* or 20px */
-  letter-spacing: 0.75px;
-  text-transform: uppercase;
-  font-feature-settings: "pnum" on, "lnum" on;
-  /* Black */
-  color: #000000;
 }/*# sourceMappingURL=category.css.map */
