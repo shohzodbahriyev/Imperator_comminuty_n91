@@ -20,6 +20,10 @@ li {
   list-style-type: none;
 }
 
+.owl-theme .owl-nav {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .product__sct__shop__rows {
     text-align: center;

@@ -49,6 +49,9 @@
 #about .sec-1 .row .sec2-right {
   padding-bottom: 80px;
 }
+#about .sec-1 .row .sec2-right img {
+  padding-right: 0px;
+}
 #about .sec-1 .row .sec2-right img:hover {
   transform: scale(1.1);
   transition-duration: 0.5s;
@@ -67,6 +70,7 @@
 }
 #about .sec-2 .col-md-4:hover {
   transform: scale(1.1);
+  transition-duration: 0.5s;
 }
 #about .sec-3 {
   background-image: linear-gradient(#e5e5e5 0 40%, #0F0D2B 40% 100%);
@@ -120,6 +124,7 @@
 }
 
 .sec-4 {
+  background: #E5E5E5;
   padding-top: 150px;
   padding-bottom: 65px;
 }

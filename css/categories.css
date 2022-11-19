@@ -24,7 +24,7 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
-#categories #categories__wear__img__title {
+#categories #categories__wear .row__img__title {
   font-weight: 400;
   font-size: 25px;
   line-height: 130%;
