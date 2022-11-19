@@ -1,0 +1,50 @@
+@import url(../global.scss);
+@import url(../global.scss);
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}
+
+#about h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  color: #000000;
+}
+#about .row .sec1-left h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  padding-top: 75px;
+}
+#about .row .sec1-left p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding-top: 25px;
+}
+#about .row .sec2-right img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+@media screen and (max-width: 992px) {
+  #about .sec2-right img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=about.css.map */

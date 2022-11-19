@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="../css/checkout.css" />
   </head>
   <body>
     <div class="language bg-dark py-2">
@@ -20,7 +20,84 @@
     <header w3-include-html="navbar.html"></header>
 
     <main id="checkout">
-
+      <!-- tolov -->
+      <section class="chekbox container">
+        <div class="chekbox_title"><h1>Оформление заказа</h1></div>
+        <form class="row" action="#">
+          <!-- tolov chap -->
+          <div class="col-lg-6 chekbox_left">
+            <div class="chekbox_text">
+              <p><span>Товаров: (1)</span><span>Сумма: $235</span></p>
+              <p><span>Общая сумма к оплате: </span> <span>$235</span></p>
+            </div>
+            <div class="chekbox_cards">
+              <div class="form-check cards form-check-inline">
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="inlineRadio1"
+                    ><img src="./images/chekout/click.png" alt=""
+                  /></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="inlineRadio2"
+                    ><img src="./images/chekout/payme.png" alt=""
+                  /></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tolov o'ng -->
+          <div class="col-lg-6 chekbox_right">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Адресс доставки"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Имя"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="phone"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Номер телефона"
+              />
+            </div>
+            <div class="bnt_chekbox_right mb-3">
+              <input
+                type="Submit"
+                class="form-control"
+                id="formGroupExampleInput2"
+                value="Перейти к оплате"
+                class="bnt_chekbox_right"
+              />
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- tolov end -->
     </main>
 
     <footer w3-include-html="footer.html"></footer>
