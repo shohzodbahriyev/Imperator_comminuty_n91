@@ -1,12 +1,24 @@
 @import "../global";
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 .product {
   &__sct {
     &__shop {
       &__rows {
+        @media screen and (max-width: 992px) {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
         &__right {
+          @media screen and (max-width: 992px) {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
           &_imgs {
             img {
               padding: 24px 10px 10px 0px;
@@ -14,6 +26,11 @@ li {
           }
         }
         &__left {
+          &__btn {
+            @media screen and (max-widht: 992px) {
+              text-align: center;
+            }
+          }
           &__prgrph {
             &__read__more {
               cursor: pointer;
@@ -27,6 +44,14 @@ li {
       }
     }
   }
+  &__TopCategories {
+    &__cont {
+      &__row {
+        @media screen and (max-widht: 1200px) {
+          width: 100%;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
 }
-
-
