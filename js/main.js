@@ -30,8 +30,11 @@ function includeHTML() {
   }
 }
 
-(function () {
-  document.getElementsByTagName("header")[0].className = "sticky-top";
-})();
+let = addStickHeader = () => {
+  let header = document.getElementsByTagName("header");
+  header[0].className = "sticky-top";
+};
+
+addStickHeader();
 
 includeHTML();
