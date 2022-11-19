@@ -1,5 +1,30 @@
 @import "../global";
+.coop-text {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  margin-top: 64px;
+  margin-bottom: 40px;
+}
 
-#cooperation{
-  
+.btn-primary {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  width: 100%;
+  align-items: flex-end;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #0d0d0d;
+  background: #ffc000;
+  border: none;
+  margin-bottom: 84px;
+}
+.form-control {
+  border-radius: 0px;
 }
