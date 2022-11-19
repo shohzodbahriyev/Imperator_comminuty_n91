@@ -50,4 +50,8 @@ li {
   line-height: 140%;
   letter-spacing: 0.4px;
   color: rgba(0, 0, 0, 0.4);
-}/*# sourceMappingURL=product.css.map */
+}
+.owl-theme .owl-nav {
+  display: none;
+}
+/*# sourceMappingURL=product.css.map */
