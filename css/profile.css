@@ -16,7 +16,7 @@
   color: blue;
 }/*# sourceMappingURL=profile.css.map */
 .profile__section-1 {
-  height: 400px;
+  height: 600px;
   
 
 }
@@ -25,16 +25,21 @@
   
 }
 .col-4 {
+  margin-top: 100px;
   
 }
 .card-img-top {
   width: 100%;
 }
-.btn-primary {
+.address {
   background-color: #FFC000;
   color: black;
+  width: 250px;
 }
 .edit {
   color: #FFC000;
   text-decoration: none;
+}
+.yunusobod {
+  width: 300px;
 }
