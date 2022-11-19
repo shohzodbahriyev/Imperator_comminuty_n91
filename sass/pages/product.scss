@@ -21,7 +21,7 @@ li {
           }
           &_imgs {
             img {
-              padding: 24px 10px 10px 0px;
+              padding: 0px 10px 10px 0px;
             }
           }
         }
@@ -40,16 +40,6 @@ li {
               color: rgba(0, 0, 0, 0.4);
             }
           }
-        }
-      }
-    }
-  }
-  &__TopCategories {
-    &__cont {
-      &__row {
-        @media screen and (max-widht: 1200px) {
-          width: 100%;
-          flex-wrap: wrap;
         }
       }
     }
