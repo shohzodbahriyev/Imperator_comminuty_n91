@@ -21,54 +21,50 @@
   </div>
   <header w3-include-html="navbar.html"></header>
 
-  <main id="product">
-    <section class="product__sct">
+  <main id="product" class="product">
+    <section class="product__sct mt-5">
       <div class="container product__sct__shop">
         <div class="product__sct__shop__rows row">
-          <div class="product__sct__shop__rows__right col-6">
-            <img src="./images/product_imgs/product_shop.png" alt="">
+          <div class="product__sct__shop__rows__right col-sm-12 col-lg-6">
+            <a href="#"><img src="./images/product_imgs/product_shop.png" alt=""></a>
             <div class="product__sct__shop__rows__right_imgs">
-              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
-              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
-              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
-              <img src="./images/product_imgs/pruduct_shop_2.png" alt="">
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
+              <a href="#"><img src="./images/product_imgs/pruduct_shop_2.png" alt=""></a>
             </div>
           </div>
-          <div class="product__sct__shop__rows__left col-6">
+          <div class="product__sct__shop__rows__left col-lg-6 col-sm-12">
             <div class="product__sct__shop__rows__left__prgrph">
-              <h1>Lorem ipsum dolor sit amet</h1>
-              <img src="./images/product_imgs/star.svg" alt="">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
-                nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula
-                  tempor porta Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae!</span></p>
-              <p onclick="myFunction()" id="myBtn">Read more...</p>
-              <h4>855 у.е.</h4>
+              <h1 class="pb-2 fw-bold text-black">Lorem ipsum dolor sit amet</h1>
+              <img src="./images/product_imgs/star.svg" class="pb-3" alt="">
+              <p class="text-black ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <span id="dots">...</span><span id="more">erisque enim ligula
+                  tempor porta molestiae!</span></p>
+              <p onclick="myFunction()" id="myBtn" class="product__sct__shop__rows__left__prgrph__read__more p fw-bold">Read more...</p>
+              <h4 class="pb-3 fw-bold text-black fs-2">855 у.е.</h4>
             </div>
             <div class="product__sct__shop__rows__left__shops">
-              <h5>Size</h5>
-              <div class="product__sct__shop__rows__left__shops__size">
-                <button type="button" class="btn btn-light">28</button>
-                <button type="button" class="btn btn-light">30</button>
-                <button type="button" class="btn btn-light">32</button>
-                <button type="button" class="btn btn-light">34</button>
-                <button type="button" class="btn btn-light">36</button>
+              <h5 class="fw-bold text-black">Size</h5>
+              <div class="product__sct__shop__rows__left__shops__size pb-2">
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">28</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">30</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">32</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">34</button>
+                <button type="button" class="me-2 btn btn-light border border-dark text-black">36</button>
               </div>
-              <div class="product__sct__shop__rows__left__btn">
-                <button type="button" class="btn btn-warning">Добавить в корзину</button>
-                <button type="button" class="btn btn-light">Быстрая покупка</button>
+              <div class="product__sct__shop__rows__left__btn d-flex flex-column w-75">
+                <button type="button" class="btn btn-warning  mb-3  fw-bold text-black">Добавить в корзину</button>
+                <button type="button" class="btn btn-light mb-4 fw-bold text-black">Быстрая покупка</button>
               </div>
               <div class="product__sct__shop__rows__left__advantages">
-                <h4>Преимущества</h4>
-                <ul class="product__sct__shop__rows__left__advantages__item">
-                  <li class="product__sct__shop__rows__left__advantages__item__list"> <img
-                      src="./images/product_imgs/ic_delivery.svg" alt=""> <span>Delivery in 7 days</span> </li>
-                  <li class="product__sct__shop__rows__left__advantages__item__list"><img
-                      src="./images/product_imgs/ic_file_checked.svg" alt="">  <span>90-day Buyer Protection</span>  </li>
-                  <li class="product__sct__shop__rows__left__advantages__item__list"> <img
-                      src="./images/product_imgs/ic_medal.svg" alt=""> <span>Trusted seller</span> </li>
-                  <li class="product__sct__shop__rows__left__advantages__item__list"> <img
-                      src="./images/product_imgs/ic_safe.svg" alt=""> <span>Aviable to order</span> </li>
-                </ul>
+                <h4 class="fw-bold text-black fs-2 pb-3">Преимущества</h4>
+                <div class="row">
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_delivery.svg" alt="" class="pe-3"><span class="text-black">Delivery in 7 days</span></div>
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_file_checked.svg" alt="" class="pe-3"><span class="text-black">90-day Buyer Protection</span></div>
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_medal.svg" alt="" class="pe-3"><span class="text-black">Trusted seller</span></div>
+                  <div class="col-6 pb-4"><img src="./images/product_imgs/ic_safe.svg" alt="" class="pe-3"><span class="text-black">Aviable to order</span></div>
+                </div>
               </div>
             </div>
           </div>
@@ -76,9 +72,20 @@
       </div>
       </div>
     </section>
+    <section class="TopCategories">
+      <div class="container">
+        <h1>Лучшие категории</h1>
+        <div class="row d-flex pt-4">
+          <div class="col-3"><img src="./images/product_imgs/image 21.png" alt=""><p class="pt-3 text-center w-75 fs-3 text-black">Women’s wear</p></div>
+          <div class="col-3"><img src="./images/product_imgs/image 23 (1).png" alt=""><p class="pt-3 text-center w-75 fs-3 text-black">Men’s wear</p></div>
+          <div class="col-3"><img src="./images/product_imgs/image 24 (1).png" alt=""><p class="pt-3 text-center w-75 fs-3 text-black">Kid’s wear</p></div>
+          <div class="col-3"><img src="./images/product_imgs/image 25.png" alt=""><p class="pt-3 text-center w-75  fs-3 text-black">Shoes</p></div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer w3-include-html="footer.html"></footer>
+  <!---<footer w3-include-html="footer.html"></footer>--->
 
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/jQuery.min.js"></script>

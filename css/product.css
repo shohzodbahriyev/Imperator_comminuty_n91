@@ -14,4 +14,19 @@
 }
 * .language a:hover {
   color: blue;
+}
+
+li {
+  list-style-type: none;
+}
+
+.product__sct__shop__rows__right_imgs img {
+  padding: 24px 10px 10px 0px;
+}
+.product__sct__shop__rows__left__prgrph__read__more {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.4);
 }/*# sourceMappingURL=product.css.map */

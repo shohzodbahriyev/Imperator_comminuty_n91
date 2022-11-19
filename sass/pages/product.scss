@@ -1,5 +1,32 @@
 @import "../global";
-
-#product{
-  
+li {
+    list-style-type: none;
 }
+.product {
+  &__sct {
+    &__shop {
+      &__rows {
+        &__right {
+          &_imgs {
+            img {
+              padding: 24px 10px 10px 0px;
+            }
+          }
+        }
+        &__left {
+          &__prgrph {
+            &__read__more {
+              cursor: pointer;
+              font-size: 12px;
+              line-height: 140%;
+              letter-spacing: 0.4px;
+              color: rgba(0, 0, 0, 0.4);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
