@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="./css/checkout.css" />
   </head>
   <body>
     <div class="language bg-dark py-2">
@@ -20,6 +20,182 @@
     <header w3-include-html="navbar.html"></header>
 
     <main id="checkout">
+      <!-- tolov -->
+      <section class="chekbox container">
+        <div class="chekbox_title"><h1>Оформление заказа</h1></div>
+        <form class="row" action="#">
+          <!-- tolov chap -->
+          <div class="col-lg-6 chekbox_left">
+            <div class="chekbox_text">
+              <p><span>Товаров: (1)</span><span>Сумма: $235</span></p>
+              <p><span>Общая сумма к оплате: </span> <span>$235</span></p>
+            </div>
+            <div class="chekbox_cards">
+              <div class="form-check cards form-check-inline">
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="inlineRadio1"
+                    ><img src="./images/chekout/click.png" alt=""
+                  /></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="inlineRadio2"
+                    ><img src="./images/chekout/payme.png" alt=""
+                  /></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tolov o'ng -->
+          <div class="col-lg-6 chekbox_right">
+            <div class="mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Адресс доставки"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Имя"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="phone"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Номер телефона"
+              />
+            </div>
+            <div class="bnt_chekbox_right mb-4">
+              <input
+                type="Submit"
+                class="form-control"
+                id="formGroupExampleInput2"
+                value="Перейти к оплате"
+                class="bnt_chekbox_right"
+              />
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- tolov end -->
+
+      <!-- Order -->
+      <section class="order container">
+        <h1>Ваш заказ</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+               Худи мужская белая с принтом.
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body order_items row">
+               <div class="order_items_img col-lg-3 col-4"><img width="100%" src="./images/chekout/order.png" alt=""></div>
+               <div class="order_items_text col-lg-9 col-8 "><h2>Худи мужская белая с принтом.</h2>
+              <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Eget tellus purus, id pretium viverra rutrum. Et blandit 
+                 nunc a pellentesque in cras facilisis sapien, dictum. At 
+                 vel egestas urna morbi tortor leo ut. In curabitur at pretium 
+                 vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.</p>
+             
+                  <p class="d-flex justify-content-between "><span>25.000 Сум</span> <span>Size:28</span></p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          </div>
+                  <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+               Худи мужская белая с принтом.
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body order_items row">
+               <div class="order_items_img col-lg-3 col-4"><img width="100%" src="./images/chekout/order.png" alt=""></div>
+               <div class="order_items_text col-lg-9 col-8 "><h2>Худи мужская белая с принтом.</h2>
+              <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Eget tellus purus, id pretium viverra rutrum. Et blandit 
+                 nunc a pellentesque in cras facilisis sapien, dictum. At 
+                 vel egestas urna morbi tortor leo ut. In curabitur at pretium 
+                 vulputate in. Porta bibendum feugiat congue id rhoncus. Vel semper enim, eget.</p>
+             
+                  <p class="d-flex justify-content-between "><span>25.000 Сум</span> <span>Size:28</span></p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          </div>
+        </div>
+      </section>
+      <!-- order end -->
+
+      <!-- market -->
+      <section class="market container">
+        <h1>Магазины</h1>
+        <div class="row market_item">
+          <div class="col-sm-6 col-md-3  market_logo"><img src="./images/chekout/market1.png" alt=""></div>
+          <div class="col-sm-6 col-md-3  market_logo"><img src="./images/chekout/market2.png" alt=""></div>
+          <div class="col-sm-6 col-md-3  market_logo"><img src="./images/chekout/market3.png" alt=""></div>
+          <div class="col-sm-6 col-md-3  market_logo"><img src="./images/chekout/market1.png" alt=""></div>
+        </div>
+      </section>
+      <!-- market end -->
+
+      <!-- Категории -->
+  
 
     </main>
 
