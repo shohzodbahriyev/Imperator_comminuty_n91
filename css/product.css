@@ -20,6 +20,10 @@ li {
   list-style-type: none;
 }
 
+.owl-theme .owl-nav {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .product__sct__shop__rows {
     text-align: center;
@@ -50,8 +54,4 @@ li {
   line-height: 140%;
   letter-spacing: 0.4px;
   color: rgba(0, 0, 0, 0.4);
-}
-.owl-theme .owl-nav {
-  display: none;
-}
-/*# sourceMappingURL=product.css.map */
+}/*# sourceMappingURL=product.css.map */
